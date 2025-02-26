@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Scoring App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cricket Scoring App</h1>
+        </header>
+
+        <div class="main-content">
+            <!-- Player Selection -->
+            <div class="section">
+                <label for="player">Select Player</label>
+                <select id="player">
+                    <option value="kit">kit</option>
+                    <option value="ski">Player 2</option>
+                    <option value="gnu">Player 3</option>
+                </select>
+            </div>
+
+            <!-- Score Buttons -->
+            <div class="score-buttons">
+                <button id="addRun">Add 1 Run</button>
+                <button id="addWicket">Add Wicket</button>
+                <button id="addOver">Add 1 Over</button>
+            </div>
+
+            <!-- Match Information -->
+            <div class="match-info">
+                <p><strong>Total Runs:</strong> <span id="totalRuns">0</span></p>
+                <p><strong>Total Wickets:</strong> <span id="totalWickets">0</span></p>
+                <p><strong>Total Overs:</strong> <span id="totalOvers">0</span></p>
+            </div>
+
+            <!-- Save Button -->
+            <div class="section">
+                <button id="saveMatch">Save Match</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
